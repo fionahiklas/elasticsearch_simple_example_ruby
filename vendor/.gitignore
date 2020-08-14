@@ -1,0 +1,6 @@
+# Don't include any files/directories from here into git
+**/*
+!.gitkeep
+!.gitignore
+
+
