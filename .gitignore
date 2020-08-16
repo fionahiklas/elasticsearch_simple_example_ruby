@@ -16,6 +16,10 @@
 # Bundler files
 .bundle
 
+# Log file
+*.log
+
+
 # The rest of this file is from github
 *.gem
 *.rbc
