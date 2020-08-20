@@ -13,12 +13,14 @@ GEM
       multipart-post (>= 1.2, < 3)
     multi_json (1.15.0)
     multipart-post (2.1.1)
+    tk (0.2.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   elasticsearch (~> 7.8, >= 7.8.1)
+  tk (~> 0.2.0)
 
 BUNDLED WITH
    2.1.4

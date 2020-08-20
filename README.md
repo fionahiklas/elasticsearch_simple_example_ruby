@@ -1,5 +1,22 @@
 # elasticsearch_simple_example_ruby
 
+## Overview
+
+Test code using Ruby to explore ElasticSearch 
+
+
+
+## Prerequisites 
+
+* Docker (either native on Linux or Docker for Windows or Mac)
+* Ruby (again either natively installed on Linux, MacOS or a Windows distribution)
+* Tcl/Tk (available on Linux as packages, alternatively from ActiveState, see notes section)
+
+It's only the Tk library that is needed from the Tcl/Tk packages.  There is a Ruby gem that provides
+bindings to these.
+
+
+
 ## Getting Started
  
 ### Run ElasticSearch 
@@ -133,4 +150,12 @@ irb:> client.index index: "fred", body: { "jim": "sheila" }
 * [Elasticsearch gem](https://rubygems.org/gems/elasticsearch/versions/7.8.1)
 * [Elasticsearch API](https://www.rubydoc.info/gems/elasticsearch-api/Elasticsearch)
 * [Iterating two arrays at once](https://stackoverflow.com/questions/3580049/whats-the-ruby-way-to-iterate-over-two-arrays-at-once)
+
+
+### Tcl/Tk
+
+* [ActiveState Tcl](https://www.activestate.com/products/tcl/downloads/)
+* [Ruby Tk tutorial](http://rubylearning.com/satishtalim/ruby_tk_tutorial.html)
+
+
 
